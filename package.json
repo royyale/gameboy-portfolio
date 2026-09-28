@@ -1,0 +1,22 @@
+{
+  "name": "royyale",
+  "version": "0.1.0",
+  "description": "Bryson Royale's portfolio \u2014 a Game Boy in your terminal. Run: npx royyale",
+  "type": "module",
+  "bin": {
+    "royyale": "bin/royyale.js"
+  },
+  "files": [
+    "bin/royyale.js",
+    "src"
+  ],
+  "scripts": {
+    "start": "node bin/royyale.js",
+    "preview": "node bin/preview.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "Bryson Royale <brysonroyale@brandeis.edu>",
+  "license": "MIT"
+}
